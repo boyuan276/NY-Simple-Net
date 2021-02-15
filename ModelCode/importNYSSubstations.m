@@ -57,7 +57,7 @@ end
 
 %% Change case of the name
 NYSSubstations.Name = lower(NYSSubstations.Name);
-NYSSubstations.Name = 
+% NYSSubstations.Name = 
 
 
 end
