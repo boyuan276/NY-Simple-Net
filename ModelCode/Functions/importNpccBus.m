@@ -37,10 +37,9 @@ opts.DataRange = "B" + dataLines(1, 1) + ":N" + dataLines(1, 2);
 
 % Specify column names and types
 opts.VariableNames = ["idx", "u", "name", "Vn", "vmax", "vmin", "v0", "a0", "xcoord", "ycoord", "area", "zone", "owner"];
-opts.VariableTypes = ["categorical", "categorical", "string", "double", "double", "double", "double", "double", "double", "double", "categorical", "categorical", "categorical"];
+opts.VariableTypes = ["categorical", "categorical", "categorical", "double", "double", "double", "double", "double", "double", "double", "categorical", "categorical", "categorical"];
 
 % Specify variable properties
-opts = setvaropts(opts, "name", "WhitespaceRule", "preserve");
 opts = setvaropts(opts, ["idx", "u", "name", "area", "zone", "owner"], "EmptyFieldRule", "auto");
 
 % Import the data
