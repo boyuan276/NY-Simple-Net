@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="bus_with_zone-bus_with_zone">
+        <SrcDataSource relativeToVRT="1">bus_with_zone.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>bus_with_zone</SrcLayer>
+        <Field name="uid" src="uid" type="Integer"/>
+        <Field name="idx" src="idx" type="Integer"/>
+        <Field name="u" src="u" type="Integer"/>
+        <Field name="name" src="name" type="String"/>
+        <Field name="Vn" src="Vn" type="Real"/>
+        <Field name="vmax" src="vmax" type="Real"/>
+        <Field name="vmin" src="vmin" type="Real"/>
+        <Field name="v0" src="v0" type="Real"/>
+        <Field name="a0" src="a0" type="Real"/>
+        <Field name="area" src="area" type="Integer"/>
+        <Field name="zone" src="zone" type="Integer"/>
+        <Field name="owner" src="owner" type="Integer"/>
+        <Field name="zoneID" src="zoneID" type="String"/>
+        <Field name="zoneName" src="zoneName" type="String"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:4326</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="ycoord" y="xcoord"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
