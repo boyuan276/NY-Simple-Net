@@ -39,11 +39,12 @@ opts.Sheet = sheetName;
 opts.DataRange = "A" + dataLines(1, 1) + ":M" + dataLines(1, 2);
 
 % Specify column names and types
-opts.VariableNames = ["NYISOname", "PTID", "Zone", "UnitType", "DualFuel", "FuelTypepr", "FuelTypese", "NamePlateR", "NetEnergyG", "Latitude", "Longitude", "HubName", "HubDist"];
+opts.VariableNames = ["NYISOname", "PTID", "Zone", "UnitType", "DualFuel", "FuelTypepr", "FuelTypese", "NamePlateR", "NetEnergyG", "Latitude", "Longitude", "BusName", "BusDist"];
+opts.SelectedVariableNames = ["NYISOname", "PTID", "Zone", "Latitude", "Longitude", "BusName", "BusDist"];
 opts.VariableTypes = ["categorical", "categorical", "categorical", "categorical", "categorical", "categorical", "categorical", "double", "double", "double", "double", "categorical", "double"];
 
 % Specify variable properties
-opts = setvaropts(opts, ["NYISOname", "PTID", "Zone", "UnitType", "DualFuel", "FuelTypepr", "FuelTypese", "HubName"], "EmptyFieldRule", "auto");
+opts = setvaropts(opts, ["NYISOname", "PTID", "Zone", "BusName"], "EmptyFieldRule", "auto");
 
 % Import the data
 genNearestPVBus = readtable(workbookFile, opts, "UseExcel", false);
