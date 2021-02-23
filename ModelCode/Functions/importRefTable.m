@@ -39,6 +39,5 @@ end
 % Exclude generators fueling on wood and refuse (renewable energy)
 RGGI2NYCA2019 = RGGI2NYCA2019(RGGI2NYCA2019.FuelType ~= "Wood" & RGGI2NYCA2019.FuelType ~= "Refuse", :);
 % Exclude generators with zero gross load in 2019
-RGGI2NYCA2019 = RGGI2NYCA2019(RGGI2NYCA2019.GrossLoadMWh > 0, :);
-
+RGGI2NYCA2019 = RGGI2NYCA2019(RGGI2NYCA2019.GrossLoadMWh > 1, :);
 end
