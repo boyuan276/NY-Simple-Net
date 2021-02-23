@@ -209,5 +209,3 @@ NYISOname,PTID,Zone,UnitType,DualFuel,FuelTypeprimary,FuelTypesecondary,NamePlat
 "Jamestown 7",1659,A,Combustion Turbine,No,Natural Gas,<undefined>,47.3,109.8,42.0917,-79.2417
 "Independence",23970,C,Combined Cycle,No,Natural Gas,<undefined>,1254,4912.1,43.495,-76.4508
 "Bethlehem Energy Center",323570,F,Combined Cycle,YES,Natural Gas,Fuel Oil,893.1,5142.1,42.5905,-73.7636
-"Bethlehem Energy Center",323570,F,Combined Cycle,YES,Natural Gas,Fuel Oil,893.1,5142.1,42.5905,-73.7636
-"Bethlehem Energy Center",323570,F,Combined Cycle,YES,Natural Gas,Fuel Oil,893.1,5142.1,42.5905,-73.7636
