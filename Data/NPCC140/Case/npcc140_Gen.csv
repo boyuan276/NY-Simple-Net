@@ -5,7 +5,9 @@ NYISOname,PTID,Zone,UnitType,DualFuel,FuelTypeprimary,FuelTypesecondary,NamePlat
 "Brooklyn Navy Yard",23515,J,Combined Cycle,YES,Natural Gas,Fuel Oil,322,1964.7,40.703833,-73.981228
 "Astoria 3",23516,J,Steam Turbine (Fossile),YES,Fuel Oil,Natural Gas,376,307.3,40.787174,-73.908745
 "Astoria 5",23518,J,Steam Turbine (Fossile),YES,Fuel Oil,Natural Gas,387,757.8,40.787174,-73.908745
+"Arthur Kill GT 1",23520,J,Combustion Turbine,No,Natural Gas,<undefined>,20,1,40.589204,-74.197028
 "Wading River 1",23522,K,Combustion Turbine,No,Fuel Oil,<undefined>,79.5,4.2,40.956178,-72.877412
+"Astoria GT 01",23523,J,Combustion Turbine,No,Natural Gas,<undefined>,16,1,40.787725,-73.909326
 "East River 7",23524,J,Steam Turbine (Fossile),YES,Natural Gas,Fuel Oil,200,209.6,40.727823,-73.974959
 "Bowline 1",23526,G,Steam Turbine (Fossile),YES,Natural Gas,Fuel Oil,621,238.4,41.204688,-73.979414
 "Ravenswood ST 01",23533,J,Steam Turbine (Fossile),YES,Fuel Oil,Natural Gas,400,598.7,40.758433,-73.947041
@@ -89,7 +91,8 @@ NYISOname,PTID,Zone,UnitType,DualFuel,FuelTypeprimary,FuelTypesecondary,NamePlat
 "General Mills Inc",23808,A,Combustion Turbine,No,Natural Gas,<undefined>,3.8,1.6,42.852295,-78.771766
 "Greenport GT1",23814,K,Jet Engine,No,Fuel Oil,<undefined>,54,24.1,41.048885,-72.469556
 "Far Rockaway GT2",23815,K,Jet Engine,No,Kerosene,<undefined>,60.5,9.5,40.610683,-73.759891
-"KIAC_JFK_GT1",23816,J,Combined Cycle,YES,Natural Gas,Fuel Oil,60.6,603.1,40.66071,-73.817446
+"KIAC_JFK_GT1",23816,J,Combined Cycle,YES,Natural Gas,Fuel Oil,60.6,301.55,40.66071,-73.817446
+"KIAC_JFK_GT2",23817,J,Combined Cycle,YES,Natural Gas,Fuel Oil,60.6,301.55,40.66071,-73.817446
 "Freeport CT 2",23818,K,Combustion Turbine,YES,Natural Gas,Kerosene,60.5,43.3,40.667698,-73.538736
 "Ontario LFGE",23819,C,Internal Combustion,No,Methane (Bio Gas),<undefined>,11.2,71.7,42.879416,-76.953155
 "Ravenswood CC 04",23820,J,Combined Cycle,YES,Natural Gas,Fuel Oil,250,1347.4,40.758433,-73.947041
@@ -101,7 +104,8 @@ NYISOname,PTID,Zone,UnitType,DualFuel,FuelTypeprimary,FuelTypesecondary,NamePlat
 "Beaver Falls",23983,E,Combined Cycle,YES,Natural Gas,Fuel Oil,107.8,10.8,43.92211,-75.319707
 "Syracuse",23985,C,Combined Cycle,YES,Natural Gas,Fuel Oil,102.7,32.5,43.063219,-76.225507
 "Onondaga County",23987,C,Steam Turbine (Fossile),No,Refuse (Solid Waste),<undefined>,39.5,216.8,43.004868,-76.114445
-"American Ref-Fuel 1",24010,A,Steam Turbine (Fossile),No,Refuse (Solid Waste),<undefined>,25,214.4,43.09846,-79.007149
+"American Ref-Fuel 1",24010,A,Steam Turbine (Fossile),No,Refuse (Solid Waste),<undefined>,25,107.2,43.09846,-79.007149
+"American Ref-Fuel 2",24010,A,Steam Turbine (Fossile),No,Refuse (Solid Waste),<undefined>,25,107.2,43.09846,-79.007149
 "Batavia",24024,B,Combined Cycle,No,Natural Gas,<undefined>,67.3,35.3,42.982493,-78.159298
 "Fortistar - N.Tonawanda",24026,A,Combined Cycle,YES,Natural Gas,Fuel Oil,68.5,24.1,43.0486,-78.854273
 "Carr St.-E. Syr",24060,C,Combined Cycle,YES,Natural Gas,Fuel Oil,122.6,150.5,43.063603,-76.082595
@@ -120,6 +124,10 @@ NYISOname,PTID,Zone,UnitType,DualFuel,FuelTypeprimary,FuelTypesecondary,NamePlat
 "Gowanus 2-1",24114,J,Combustion Turbine,YES,Fuel Oil,Natural Gas,20,1.9,40.6622,-74.0024
 "Gowanus 2-2",24115,J,Combustion Turbine,YES,Fuel Oil,Natural Gas,20,1.8,40.6622,-74.0024
 "Gowanus 2-3",24116,J,Combustion Turbine,YES,Fuel Oil,Natural Gas,20,1.9,40.6622,-74.0024
+"Gowanus 2-6",24119,J,Combustion Turbine,YES,Fuel Oil,Natural Gas,20,1,40.6622,-74.0024
+"Gowanus 2-7",24120,J,Combustion Turbine,YES,Fuel Oil,Natural Gas,20,1,40.6622,-74.0024
+"Gowanus 3-3",24124,J,Combustion Turbine,YES,Fuel Oil,Natural Gas,20,1,40.6621,-74.0023
+"Gowanus 3-4",24125,J,Combustion Turbine,YES,Fuel Oil,Natural Gas,20,1,40.6621,-74.0023
 "Gowanus 3-5",24126,J,Combustion Turbine,YES,Fuel Oil,Natural Gas,20,1.4,40.6621,-74.0023
 "Astoria 2",24149,J,Steam Turbine (Fossile),No,Natural Gas,<undefined>,180,12.6,40.787174,-73.908745
 "Stony Brook   (BTM:NG)",24151,K,Combustion Turbine,YES,Natural Gas,Fuel Oil,47,83,40.917685,-73.129131
@@ -167,10 +175,12 @@ NYISOname,PTID,Zone,UnitType,DualFuel,FuelTypeprimary,FuelTypesecondary,NamePlat
 "East River 2",323559,J,Combined Cycle,YES,Natural Gas,Kerosene,185,1092.8,40.727823,-73.974959
 "Pinelawn Power 1",323563,K,Combined Cycle,YES,Natural Gas,Kerosene,82,162.2,40.73589,-73.387823
 "Bethpage 3",323564,K,Combined Cycle,No,Natural Gas,<undefined>,96,121.8,40.747146,-73.49753
-"Astoria CC 1",323568,J,Combined Cycle,YES,Natural Gas,Fuel Oil,288,2140.4,40.787725,-73.908745
+"Astoria CC 1",323568,J,Combined Cycle,YES,Natural Gas,Fuel Oil,288,1070.2,40.787725,-73.908745
+"Astoria CC 2",323569,J,Combined Cycle,YES,Natural Gas,Fuel Oil,288,1070.2,40.787725,-73.908745
 "Colonie LFGTE",323577,F,Internal Combustion,No,Methane (Bio Gas),<undefined>,6.4,33.7,42.787293,-73.636904
 "Modern LF",323580,A,Internal Combustion,No,Methane (Bio Gas),<undefined>,6.4,19.9,43.14265,-78.84141
-"Astoria East Energy - CC1",323581,J,Combined Cycle,YES,Natural Gas,Fuel Oil,320,3584.2,40.787176,-73.907032
+"Astoria East Energy - CC1",323581,J,Combined Cycle,YES,Natural Gas,Fuel Oil,320,1792.1,40.787176,-73.907032
+"Astoria East Energy - CC2",323582,J,Combined Cycle,YES,Natural Gas,Fuel Oil,320,1792.1,40.787176,-73.907032
 "Bethpage GT4",323586,K,Combustion Turbine,No,Natural Gas,<undefined>,60,70.4,40.747099,-73.497568
 "Broome LFGE",323600,C,Internal Combustion,No,Methane (Bio Gas),<undefined>,2.4,6.3,42.132703,-75.931693
 "Chaffee",323603,A,Internal Combustion,No,Methane (Bio Gas),<undefined>,6.4,46.8,42.625404,-78.712551
@@ -187,7 +197,8 @@ NYISOname,PTID,Zone,UnitType,DualFuel,FuelTypeprimary,FuelTypesecondary,NamePlat
 "EMPIRE_CC_2",323658,F,Combined Cycle,YES,Natural Gas,Fuel Oil,335,843.1,42.624571,-73.750085
 "Steuben County LF",323667,C,Internal Combustion,No,Methane (Bio Gas),<undefined>,3.2,16.6,42.315919,-77.271425
 "Broome 2 LFGE",323671,C,Internal Combustion,No,Methane (Bio Gas),<undefined>,2.1,18.6,42.132703,-75.931693
-"Astoria Energy 2 - CC3",323677,J,Combined Cycle,YES,Natural Gas,Fuel Oil,330,2750.3,40.78719,-73.9071
+"Astoria Energy 2 - CC3",323677,J,Combined Cycle,YES,Natural Gas,Fuel Oil,330,1375.15,40.78719,-73.9071
+"Astoria Energy 2 - CC4",323678,J,Combined Cycle,YES,Natural Gas,Fuel Oil,330,1375.15,40.78719,-73.9071
 "Islip (RR)",323679,K,Steam Turbine (Fossile),No,Refuse (Solid Waste),<undefined>,12.5,55.7,40.784928,-73.114985
 "Oneida-Herkimer  LFGE",323681,E,Internal Combustion,No,Methane (Bio Gas),<undefined>,3.2,27,43.417623,-75.40457
 "Bayonne EC  CTG1",323682,J,Jet Engine,YES,Natural Gas,Kerosene,64,78.1,40.652228,-74.090857
@@ -206,6 +217,10 @@ NYISOname,PTID,Zone,UnitType,DualFuel,FuelTypeprimary,FuelTypesecondary,NamePlat
 "CPV_VALLEY___CC2",323722,G,Combined Cycle,YES,Natural Gas,Fuel Oil,385,667.3,41.412477,-74.43695
 "Bayonne EC  CTG9",323749,J,Jet Engine,YES,Natural Gas,Kerosene,64,65.7,40.652228,-74.090857
 "Bayonne EC  CTG10",323750,J,Jet Engine,YES,Natural Gas,Kerosene,64,62.5,40.652228,-74.090857
+"Jamestown 6",1658,A,Steam Turbine (Fossile),No,Natural Gas,Coal,25,23.7,42.092,-79.242
 "Jamestown 7",1659,A,Combustion Turbine,No,Natural Gas,<undefined>,47.3,109.8,42.0917,-79.2417
+"Charles P Keller 14",1661,K,Internal Combustion,YES,Fuel Oil,Natural Gas,6.2,1.2,40.658,-73.641
+"Oswego County",23634,C,Steam Turbine (Fossile),No,Refuse (Solid Waste),<undefined>,3.6,4.3,43.458,-76.529
+"Gloversville Johnstown WWT",23643,F,Internal Combustion,No,Methane (Bio Gas),<undefined>,0.7,1.2,42.994,-74.399
 "Independence",23970,C,Combined Cycle,No,Natural Gas,<undefined>,1254,4912.1,43.495,-76.4508
 "Bethlehem Energy Center",323570,F,Combined Cycle,YES,Natural Gas,Fuel Oil,893.1,5142.1,42.5905,-73.7636
