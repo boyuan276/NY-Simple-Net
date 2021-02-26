@@ -31,14 +31,14 @@ opts.Delimiter = ",";
 
 % Specify column names and types
 opts.VariableNames = ["NYISOname", "PTID", "Zone", "UnitType", "DualFuel", "FuelTypepr", "FuelTypese", "NamePlateR", "NetEnergyG", "Latitude", "Longitude", "BusName", "BusDist"];
-opts.VariableTypes = ["categorical", "categorical", "categorical", "categorical", "categorical", "categorical", "categorical", "double", "double", "double", "double", "categorical", "double"];
+opts.VariableTypes = ["categorical", "categorical", "categorical", "categorical", "categorical", "categorical", "categorical", "double", "double", "double", "double", "double", "double"];
 
 % Specify file level properties
 opts.ExtraColumnsRule = "ignore";
 opts.EmptyLineRule = "read";
 
 % Specify variable properties
-opts = setvaropts(opts, ["NYISOname", "PTID", "Zone", "UnitType", "DualFuel", "FuelTypepr", "FuelTypese", "BusName"], "EmptyFieldRule", "auto");
+opts = setvaropts(opts, ["NYISOname", "PTID", "Zone", "UnitType", "DualFuel", "FuelTypepr", "FuelTypese"], "EmptyFieldRule", "auto");
 
 % Import the data
 nearestBus2Gen = readtable(filename, opts);
