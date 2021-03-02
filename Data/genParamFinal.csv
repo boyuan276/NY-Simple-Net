@@ -54,23 +54,23 @@ NYISOName,PTID,UnitType,FuelType,Zone,NamePlateRatingMW,maxPower,minPower,maxRam
 "Ravenswood CC 04",23820,Combined Cycle,Natural Gas,J,250,286,158,2.3,23,69,138,784.865632261453,4.01623501247745,0.59060992473616
 "Selkirk-I",23801,Combined Cycle,Natural Gas,F,107.2,143,72,1.05,10.5,31.5,63,238.228233620743,5.78919768767805,0.751475561729715
 "Astoria East Energy - CC2",323582,Combined Cycle,Natural Gas,J,320,313,169,2.65833333333333,26.5833333333333,79.75,159.5,407.384739149732,5.39774587944187,0.777187783971167
-"Agg-A-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,A,219,192,13,0.519401041666667,5.19401041666667,15.58203125,31.1640625,0,7.633,0
-"Agg-A-Combustion Turbine-Natural Gas",<undefined>,Combustion Turbine,Natural Gas,A,51.1,49.8,0,0.712998661311914,7.12998661311914,21.3899598393574,42.7799196787149,0,11.098,0
-"Agg-A-Steam Turbine-Natural Gas",<undefined>,Steam Turbine,Natural Gas,A,25,25,0,0.416666666666667,4.16666666666667,12.5,25,0,10.347,0
-"Agg-B-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,B,134.3,109,13,0.416743119266055,4.16743119266055,12.5022935779817,25.0045871559633,0,7.633,0
-"Agg-C-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,C,284.3,250.7,0,0.681245180162213,6.81245180162213,20.4373554048664,40.8747108097328,0,7.633,0
-"Agg-D-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,D,102.1,55,8.8,0.433333333333333,4.33333333333333,13,26,0,7.633,0
-"Agg-E-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,E,236,202,10.1,0.510024752475248,5.10024752475248,15.3007425742574,30.6014851485149,0,7.633,0
-"Agg-F-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,F,168.9,162,27.5,0.421604938271605,4.21604938271605,12.6481481481482,25.2962962962963,0,7.633,0
-"Agg-G-Steam Turbine-Natural Gas",<undefined>,Steam Turbine,Natural Gas,G,145.5,144,15,0.605439814814815,6.05439814814815,18.1631944444444,36.3263888888889,0,10.347,0
-"Agg-J-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,J,121.2,136,5,0.452941176470588,4.52941176470588,13.5882352941176,27.1764705882353,0,7.633,0
-"Agg-J-Combustion Turbine-Fuel Oil",<undefined>,Combustion Turbine,Fuel Oil,J,512,512,0,0.35625,3.5625,10.6875,21.375,0,13.315,0
-"Agg-J-Combustion Turbine-Natural Gas",<undefined>,Combustion Turbine,Natural Gas,J,506,477,0,0.472169811320755,4.72169811320755,14.1650943396226,28.3301886792453,0,11.098,0
-"Agg-J-Jet Engine-Kerosene",<undefined>,Jet Engine,Kerosene,J,608,558,0,0.681302270011947,6.81302270011947,20.4390681003584,40.8781362007168,0,11.098,0
-"Agg-K-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,K,316.6,278,22,0.568465227817746,5.68465227817746,17.0539568345324,34.1079136690647,0,7.633,0
-"Agg-K-Combustion Turbine-Fuel Oil",<undefined>,Combustion Turbine,Fuel Oil,K,499.8,555.4,0,0.769330212459489,7.69330212459489,23.0799063737847,46.1598127475693,0,13.315,0
-"Agg-K-Combustion Turbine-Natural Gas",<undefined>,Combustion Turbine,Natural Gas,K,712.5,695,0,0.567625899280576,5.67625899280576,17.0287769784173,34.0575539568345,0,11.098,0
-"Agg-K-Jet Engine-Fuel Oil",<undefined>,Jet Engine,Fuel Oil,K,585.6,224.3,0,0.332678704116511,3.32678704116511,9.98036112349532,19.9607222469906,0,13.315,0
-"Agg-K-Jet Engine-Kerosene",<undefined>,Jet Engine,Kerosene,K,60.5,54,31,0.608333333333333,6.08333333333333,18.25,36.5,0,11.098,0
-"Agg-K-Jet Engine-Natural Gas",<undefined>,Jet Engine,Natural Gas,K,227.7,227.2,0,0.65793427230047,6.57934272300469,19.7380281690141,39.4760563380282,0,11.098,0
-"Agg-K-Internal Combustion-Fuel Oil",<undefined>,Internal Combustion,Fuel Oil,K,6.2,6.2,0,0.103333333333333,1.03333333333333,3.1,6.2,0,10.325,0
+"Agg-A-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,A,219,192,13,0.519,5.19,15.57,31.14,0,7.633,0
+"Agg-A-Combustion Turbine-Natural Gas",<undefined>,Combustion Turbine,Natural Gas,A,51.1,49.8,0,0.713,7.13,21.39,42.78,0,11.098,0
+"Agg-A-Steam Turbine-Natural Gas",<undefined>,Steam Turbine,Natural Gas,A,25,25,0,0.417,4.17,12.51,25.02,0,10.347,0
+"Agg-B-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,B,134.3,109,13,0.417,4.17,12.51,25.02,0,7.633,0
+"Agg-C-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,C,284.3,250.7,0,0.681,6.81,20.43,40.86,0,7.633,0
+"Agg-D-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,D,102.1,55,8.8,0.433,4.33,12.99,25.98,0,7.633,0
+"Agg-E-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,E,236,202,10.1,0.51,5.1,15.3,30.6,0,7.633,0
+"Agg-F-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,F,168.9,162,27.5,0.422,4.22,12.66,25.32,0,7.633,0
+"Agg-G-Steam Turbine-Natural Gas",<undefined>,Steam Turbine,Natural Gas,G,145.5,144,15,0.605,6.05,18.15,36.3,0,10.347,0
+"Agg-J-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,J,121.2,136,5,0.453,4.53,13.59,27.18,0,7.633,0
+"Agg-J-Combustion Turbine-Fuel Oil",<undefined>,Combustion Turbine,Fuel Oil,J,512,512,0,0.356,3.56,10.68,21.36,0,13.315,0
+"Agg-J-Combustion Turbine-Natural Gas",<undefined>,Combustion Turbine,Natural Gas,J,506,477,0,0.472,4.72,14.16,28.32,0,11.098,0
+"Agg-J-Jet Engine-Kerosene",<undefined>,Jet Engine,Kerosene,J,608,558,0,0.681,6.81,20.43,40.86,0,11.098,0
+"Agg-K-Combined Cycle-Natural Gas",<undefined>,Combined Cycle,Natural Gas,K,316.6,278,22,0.568,5.68,17.04,34.08,0,7.633,0
+"Agg-K-Combustion Turbine-Fuel Oil",<undefined>,Combustion Turbine,Fuel Oil,K,499.8,555.4,0,0.769,7.69,23.07,46.14,0,13.315,0
+"Agg-K-Combustion Turbine-Natural Gas",<undefined>,Combustion Turbine,Natural Gas,K,712.5,695,0,0.568,5.68,17.04,34.08,0,11.098,0
+"Agg-K-Jet Engine-Fuel Oil",<undefined>,Jet Engine,Fuel Oil,K,585.6,224.3,0,0.333,3.33,9.99,19.98,0,13.315,0
+"Agg-K-Jet Engine-Kerosene",<undefined>,Jet Engine,Kerosene,K,60.5,54,31,0.608,6.08,18.24,36.48,0,11.098,0
+"Agg-K-Jet Engine-Natural Gas",<undefined>,Jet Engine,Natural Gas,K,227.7,227.2,0,0.658,6.58,19.74,39.48,0,11.098,0
+"Agg-K-Internal Combustion-Fuel Oil",<undefined>,Internal Combustion,Fuel Oil,K,6.2,6.2,0,0.103,1.03,3.09,6.18,0,10.325,0
