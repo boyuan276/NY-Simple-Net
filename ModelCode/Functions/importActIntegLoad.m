@@ -9,7 +9,7 @@ function actIntegLoad = importActIntegLoad(filename, dataLines)
 %  integers for dis-contiguous row intervals.
 %
 %  Example:
-%  actIntegLoad = importfile("D:\EERL\2019_NYISO\2019_RTM_Integrated_Actual_Load\20190101palIntegrated.csv", [2, Inf]);
+%  actIntegLoad = importActIntegLoad("D:\EERL\2019_NYISO\2019_RTM_Integrated_Actual_Load\20190101palIntegrated.csv", [2, Inf]);
 %
 %  See also READTABLE.
 %
@@ -30,8 +30,8 @@ opts.DataLines = dataLines;
 opts.Delimiter = ",";
 
 % Specify column names and types
-opts.VariableNames = ["TimeStamp", "Var2", "Name", "PTID", "IntegratedLoad"];
-opts.SelectedVariableNames = ["TimeStamp", "Name", "PTID", "IntegratedLoad"];
+opts.VariableNames = ["TimeStamp", "Var2", "ZoneName", "PTID", "HourlyLoad"];
+opts.SelectedVariableNames = ["TimeStamp", "ZoneName", "PTID", "HourlyLoad"];
 opts.VariableTypes = ["datetime", "string", "categorical", "categorical", "double"];
 
 % Specify file level properties
@@ -40,7 +40,7 @@ opts.EmptyLineRule = "read";
 
 % Specify variable properties
 opts = setvaropts(opts, "Var2", "WhitespaceRule", "preserve");
-opts = setvaropts(opts, ["Var2", "Name", "PTID"], "EmptyFieldRule", "auto");
+opts = setvaropts(opts, ["Var2", "ZoneName", "PTID"], "EmptyFieldRule", "auto");
 opts = setvaropts(opts, "TimeStamp", "InputFormat", "MM/dd/yyyy HH:mm:ss");
 
 % Import the data
